@@ -1,0 +1,857 @@
+{
+  "version": "1.0.2",
+  "agenda": [
+    {
+      "id": "5a50d6e8-6685-4b37-96b8-6274d90df334",
+      "type": "org",
+      "timeslot": "08:00 - 09:00",
+      "title": "Registration And Breakfast",
+      "icon": {
+        "name": "id-card-o"
+      }
+    },
+    {
+      "id": "bb65a0d8-f062-4965-ae65-d0a579613f86",
+      "type": "org",
+      "timeslot": "09:00 - 09:30",
+      "title": "Official Opening",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "F2C989C1",
+      "type": "org",
+      "title": "Lectures",
+      "timeslot": "09:30 - 10:15",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "04fb3dad-7996-4a8e-81d9-2588063c12fb",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Jakub Nabrdalik",
+          "bio": "A software developer with 14 years of professional experience in IT, as an architect, programmer, designer, analyst, team leader, project manager, development department manager. Gives workshops on software Craftsmanship, Domain Driven Design, Test-driven development and Spring. \nTeam leader at Allegro. More at solidcraft.eu",
+          "twitter": "jnabrdalik",
+          "avatar": "https://avatars0.githubusercontent.com/u/804769?v=3"
+        }
+      ],
+      "title": "Keep IT clean: mid-sized building blocks and hexagonal architecture in real life",
+      "level": "beginner",
+      "timeslot": "09:30 - 10:15",
+      "talkDesc": "What is the package structure of your project? Most team have hard time explaining WHY their packages look the way they do. Even less can find any sense in their final layout.\nDo you know why package-scope is the default in Java? Do you know why most developers pretty much never use it? \nDo you have an architecture, with which you can easily and fast unit test 90% of your system, and not have to change your tests even after major refactoring?\n\nAll Java devs understand class level encapsulation, some get microservices and modularity on a macro level (> few klocs). Not too many know how to design their code/architecture on a medium level. How to build easy to use building blocks. And so, most projects drift into kind of spaghetti mess.\n\nLet's see how we can make our situation a little bit better, using Domain Driven Design, package-private scope, sensible packaging structure, CQRS on microservices, and finally: hexagonal architecture. Because it is actually easier, than not doing it.",
+      "room": "konfitura",
+      "sml": false
+    },
+    {
+      "id": "57d5e64c-3a85-4c3b-bec0-c0a6cd9c7a62",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Maciej Próchniak",
+          "bio": "Dawno temu byłem topologiem algebraicznym, zmagającym się z homotopijnymi granicami odwrotnymi kontrawariantych funktorów kohomologii grup (chyba jakoś tak...)\n\nPotem zacząłem pracę w TouK przy różnych większych i mniejszych projektach, ucząc się na swoich licznych błędach. Jeśli mogę to lubię programować funkcyjnie i w Scali, ale jeśli nie mogę - to trudno, też da się żyć.\nOstatnio interesuję się strumieniowym przetwarzaniem danych.\n\nLast but not least od ponad ośmiu lat dumny mąż i tata ;)",
+          "twitter": "mpproch",
+          "avatar": "https://avatars3.githubusercontent.com/u/147658?v=3"
+        }
+      ],
+      "title": "Java 9, OSGi - czy w epoce mikroserwisów potrzebujemy modularnej Javy?",
+      "level": "beginner",
+      "timeslot": "09:30 - 10:15",
+      "talkDesc": "Mikroserwisy nadal są jednym z bardziej modnych tematów w IT. Każdy patrzy na Netflixa, LinkedIna, Zalando (albo Allegro...) i chce być taki jak oni. No i wszystko bardzo ładnie. Ale w samym sercu tej rewolucji są dobrze znane idee modularyzacji i decouplingu.\n\nI co? Okazuje się że pomysł modularyzacji Javy także nie jest nowy. Nawet słowo \"mikroserwis\" jest w użyciu na JVM od ponad 10 lat. Niestety, OSGi czyli główny sposób modularyzacji Javy nadal walczy o popularność, a w samej Javie nadal czekamy na moduły....\n\nW ramach prezentacji chciałbym opowiedzieć (i pokazać w czasie krótkiego demo) czemu nie należy tak od razu odrzucać OSGi czy Javy 9, w wielu przypadkach możemy osiągnąć wiele ciekawych korzyści bez konieczności uruchamiania setek kontenerów.",
+      "room": "spiżarnia",
+      "sml": false
+    },
+    {
+      "id": "218f0b4c-c080-47b2-9f10-f773012aedc8",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Adam Pierzchała",
+          "bio": "Test-Driven Developer at Pragmatists",
+          "twitter": null,
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzQxMjM1ODI=.jpg"
+        },
+        {
+          "name": "Zbigniew Artemiuk",
+          "bio": "Developer, strong Legia supporter",
+          "twitter": "zbigniew_art",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/dHdpdHRlci96Ymlnbmlld19hcnQ=.jpeg"
+        }
+      ],
+      "title": "Why TDD is slowing you down?",
+      "level": "advanced",
+      "timeslot": "09:30 - 10:15",
+      "talkDesc": "TDD promises that the minute you start writing tests:\n- design of your code will improve,\n- bugs will magically disappear,\n- refactoring will be fun and easy,\n- customers will be happy,\n- your boss will give you a rise,\n- grass will be greener and the sun more shiny.\nIn reality when you start with TDD, you can find yourself disappointed as none of these things happen instantly.\nIn our talk we will address some of the most common pitfalls of implementing TDD.\n\nTDD is not easy but just a few simple rules can save you a lot of pain.",
+      "room": "powidło",
+      "sml": false
+    },
+    {
+      "id": "8d465fb1-6422-47bf-a01d-3bbb4963dfc8",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Piotr Żak",
+          "bio": "Od 2011 pracuje przy tworzeniu aplikacji webowych dla bankowości, ubezpieczeń, przemysłu ciężkiego i branży rozrywkowej.\nPisanie oprogramowania to moje hobby.\nJestem fanem czystego kodu i pisania testów jednostkowych.\nMoimi ulubionymi technologiami są Java, Spring, bazy danych NoSql i Graph oraz narzędzie git\nInteresuje się tematami architektury micro service i machine learning.",
+          "twitter": null,
+          "avatar": "https://2017.confitura.pl/api/resources//photos/ZmFjZWJvb2svMTAyMDkxNzY1NDQ1NTIwMDc=.png"
+        }
+      ],
+      "title": "Jakość kodu z perspektywy programisty i menedżera.",
+      "level": "beginner",
+      "timeslot": "09:30 - 10:15",
+      "talkDesc": "Lata doświadczenia wpłynęły na moje postrzeganie jakości pracy. Opowiem dlaczego tak duże znaczenie ma współpraca i dobra atmosfera w zespole. Pokażę jak można dbać o jakość aplikacji z dwóch perspektyw, programisty i menagera. Przede wszystkim opowiem Wam jak stosować dobre praktyki wytwarzania oprogramowania.",
+      "room": "marmolada",
+      "sml": false
+    },
+    {
+      "id": "447c5b62-1c96-45ae-8875-bc62fa58d5cc",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Piotrek Guzik",
+          "bio": "Piotr Guzik - Big Data Engineer w Allegro i trener w GetInData. Ostatnio zainteresowany tematem detekcji anomalii i szeroko rozumianego Data Science. Wyznawca DDD. W wolnych chwilach podróżnik i amator fotografii.",
+          "twitter": "guzik_io",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzE0MDE1MDk1.jpg"
+        }
+      ],
+      "title": "Anomaly detection made easy",
+      "level": "beginner",
+      "timeslot": "09:30 - 10:15",
+      "talkDesc": "Obecnie monitoring stanu życia aplikacji jest chlebem powszednim. Coraz rzadziej klienci informują dostawców usług o niedostępności ich aplikacji. Czy równie dobrze monitorowane są dane i ich przepływy ?\n\nCzy firma może obejść się bez działającej przez chwilę aplikacji ? Zapewne tak, a czy obejdzie się bez danych ? Może zatem dane powinny być monitorowane tak samo jak stan życiu aplikacji ?\n\nW swojej prezentacji pokażę, w jaki sposób można wykorzystać statystykę, aby wyszukiwać anomalie w zachowaniach użytkowników. Opowiem o wyzwaniach, szczegółach implementacji oraz o tym dlaczego wdrożenie na produkcję to dopiero początek przygody.\n\nAgenda:\n1) Dlaczego chcieliśmy wykrywać anomalie w clickstreamie ?\n2) Jakie były początki, czyli od R-a do bohatera\n3) JVM jako platforma wdrożeniowa machine learning\n4) Czemu nie wzięliśmy gotowego rozwiązania ala Twitter ?\n5) Wyzwania przy projektowaniu algorytmu\n6) Wdrożenie i pierwszy feedback\n7) Wnioski",
+      "room": "dżem",
+      "sml": false
+    },
+    {
+      "id": "f2efc853-db5d-4333-be39-b0ad34b08fa5",
+      "type": "org",
+      "timeslot": "10:15 - 10:35",
+      "title": "Coffee Break",
+      "icon": {
+        "name": "coffee"
+      }
+    },
+    {
+      "id": "B2418C5E",
+      "type": "org",
+      "title": "Lectures",
+      "timeslot": "10:35 - 11:20",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "4682a33b-0947-4f08-90d5-c86af4030f1d",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Jakub Kubryński",
+          "bio": "Jakub jest programistą, dla którego programowanie jest zarówno pasją, jak i sposobem na życie. Głównym obszarem jego zainteresowań jest ciągłe usprawnianie procesów tworzenia oprogramowania poprzez wdrażanie nowych technologii oraz szlifowanie metodyk zwinnych. Podczas swojej ponad 13-letniej kariery pracował jako programista, architekt, lider zespołu oraz manager. Zdobywał doświadczenie po obu stronach procesu wytwórczego, będąc zarówno klientem, jak i dostawcą. Obecnie realizuje się jako prelegent i trener, a także współzałożyciel platformy oceny kompetencji programistów online – Devskiller.com. Ponadto aktywny uczestnik wielu projektów open-source.",
+          "twitter": "jkubrynski",
+          "avatar": "https://avatars1.githubusercontent.com/u/794206?v=3"
+        }
+      ],
+      "title": "Studium przypadku wystarczająco dobrej architektury",
+      "level": "beginner",
+      "timeslot": "10:35 - 11:20",
+      "talkDesc": "Co znaczy, że architektura w projekcie jest dobra? Na jakich aspektach powinniśmy się skupić. Co ma znaczenie na początku a co w fazie utrzymania. Czy wolno nam zapominać o kosztach i zasobach? Na te pytania, bazując na doświadczeniach projektowych, odpowiem w mojej prezentacji. Zobaczymy także jak zmieniło się podejście do architektury na przestrzeni lat i czy faktycznie zatacza ona koła. Pokażę także, że bez wielkich rewolucji można zerwać sporo nisko wiszących owoców, które zdecydowanie potrafią poprawić jakość programistycznego życia.",
+      "room": "konfitura",
+      "sml": false
+    },
+    {
+      "id": "c60a4eb2-f388-4742-84e4-c0ca900182bd",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Grzegorz Piwowarek",
+          "bio": "Software Developer | Musician | Yoyo Player",
+          "twitter": "pivovarit",
+          "avatar": "https://avatars3.githubusercontent.com/u/2182533?v=3"
+        }
+      ],
+      "title": "A Hitchhiker's Guide to the Functional Exception Handling in Java",
+      "level": "advanced",
+      "timeslot": "10:35 - 11:20",
+      "talkDesc": "Exception handling in Java is often considered cumbersome and not very aesthetically appealing. In this session, we will have a look at how functional languages deal with exceptional situations and how we can adapt those solutions in the world of Java.",
+      "room": "spiżarnia",
+      "sml": false
+    },
+    {
+      "id": "c35c086e-21a9-4bd7-a3de-1e23486bce35",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Jakub Nowacki",
+          "bio": "Absolwent Politechniki Gdańskiej oraz Uniwersytetu Bristolskiego, gdzie obronił doktorat z matematyki stosowanej. Na co dzień łączy umiejętności analityczne i programistyczne jako (Big) Data Scientist. Najbardziej interesuje się rozproszonym przetwarzaniem i analizą dużych zbiorów danych. Zaczynał przygodę z programowaniem w językach C i C++, jednak obecnie najlepiej czuje się w świecie Javy, Scali i Pythona.\n",
+          "twitter": "@jsnowacki",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/ZmFjZWJvb2svMTAyMDkwODQwMjIwMDY1NTI=.jpg"
+        }
+      ],
+      "title": "Czemu SQL? Praktyka w pracy z (dużymi) danymi",
+      "level": "beginner",
+      "timeslot": "10:35 - 11:20",
+      "talkDesc": "SQL na Confiturze, największej konferencji Javowej? Ale Panie, co Pan? Okazuje się jednak, że w czasach intensywnego wykorzystania danych ten prawie 50-letni deklaratywny (sic!) język programowania, przeżywa renesans. Przybliżę nieco jak język kojarzony głównie z relacyjnymi bazami danych, zagościł w bazach nierelacyjnych (NoSQL), projektach Big Data takich jak Hive, Spark czy Presto, oraz zainspirował nowe podejście do pracy z obiektami jak DataFrame w Spark czy jOOQ. Ponadto, pokażę dlaczego rozumienie SQL jest wartościowe dla programisty.",
+      "room": "powidło",
+      "sml": false
+    },
+    {
+      "id": "181617d5-5275-4d9e-9a15-af004e92218d",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Cezary Olborski",
+          "bio": "Wieloletni praktyk IT, aktualnie Dyrektor do Spraw Produkcji Oprogramowania w firmie Decerto, w swojej ciekawej ponad 14-letniej karierze: Programista, Architekt, Kierownik Projektu, Prezes Zarządu, Analityk, Tester, Trener SUN/Oracle, Trener szkoleń autorskich, posiadacz ponad 50 certyfikatów, ogólnie człowiek który mało śpi. W trakcie swojej pracy realizował projekty produkcji oprogramowania dla branż: finansowej, telco, fmcg, logistyka/spedycja, administracja publiczna, medycznej, aktualnie bierze czynny udział w projektach dla branży ubezpieczeniowej.",
+          "twitter": null,
+          "avatar": "https://2017.confitura.pl/api/resources//photos/ZmFjZWJvb2svMjkwNzI4NjExMzU0MDY5.png"
+        }
+      ],
+      "title": "Jak mieć 100% pewności że się projekt nie uda",
+      "level": "beginner",
+      "timeslot": "10:35 - 11:20",
+      "talkDesc": "Jak obrazić klienta? Jak oszacować projekt? Jaką architekturę wybrać ? Jaki framework i jakie narzędzia ? Jak napisać ofertę ? Jaką metodyką poprowadzić projekt ? Jak postępować z pracownikami, aby pozbawić się najmniejszych szans na sukces mimo pracy po 20 godzin dziennie ?\nTak jak mamy dobre praktyki, tak mamy też złe których unikanie daje nam szansę na tworzenie rozwiązań dobrej jakości w cywilizowany sposób.\n",
+      "room": "marmolada",
+      "sml": false
+    },
+    {
+      "id": "9389d62d-198a-49ac-97c8-c5e37d4eaf5a",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Mateusz Chrzonstowski",
+          "bio": "Projektant IT w Sollers Consulting, odpowiedzialny głównie za technologie frontendowe i integracje systemów. Zaangażowany w implementacje produktów wewnętrznych i wdrożenia na rynku ubezpieczeniowym. Po pracowaniu przez ponad rok ze Springiem i serwisami REST-owymi, dołączył do projektu w Niemczech, gdzie buduje serwisy, zgodne ze standardem REST OData \"na szczycie\" ogromnego systemu, stworzonego w alternatywnym języku JVM - Gosu.",
+          "twitter": "_mat3e_",
+          "avatar": "https://avatars1.githubusercontent.com/u/8582753?v=3"
+        }
+      ],
+      "title": "OData w Javie: wprowadzenie do Apache Olingo",
+      "level": "advanced",
+      "timeslot": "10:35 - 11:20",
+      "talkDesc": "Wykład przybliży temat elastycznych do bólu serwisów REST-owych, zgodnych z Open Data Protocol (OData). Standard zostanie zaprezentowany w teorii i na przykładach, a następnie bezpośrednio w kodzie, pisanym z wykorzystaniem biblioteki Apache Olingo.",
+      "room": "dżem",
+      "sml": false
+    },
+    {
+      "id": "1b8ab0a9-2e57-4068-ad7c-27c2be38c4d1",
+      "type": "org",
+      "timeslot": "11:20 - 11:40",
+      "title": "Coffee Break",
+      "icon": {
+        "name": "coffee"
+      }
+    },
+    {
+      "id": "0102F6A6",
+      "type": "org",
+      "title": "Lectures",
+      "timeslot": "11:40 - 12:25",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "599dcae2-b03e-4cd5-aac1-7993230de4fe",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Sławomir Sobótka",
+          "bio": "Jestem trenerem i konsultantem w firmie Bottega IT Minds, specjalizuję się w technologiach Java EE. \n<br/><br/>\nW codziennej pracy integruję Domain Driven Design, wzorce, style architektoniczne, zwinne procesy wytwórcze i zdrowy rozsądek. \n<br/><br/>\nStosuję nadrzędną zasadę: rozpoznać klasę problemu z jaką mamy do czynienia i dobrać do niej odpowiednią klasę narzędzia. \n<br/><br/>\nHobbystycznie interesuję się psychologią pozytywną i kognitywistyką. \n<br/><br/>\nLubię myśleć o sobie jako entuzjaście Software Craftsmanship. ",
+          "twitter": null,
+          "avatar": "https://2017.confitura.pl/api/resources//photos/ZmFjZWJvb2svMTYxNDgwMjkxODU2MDY3Mg==.jpg"
+        }
+      ],
+      "title": "DDD: Q&A - czyli co gryzie świadomego programistę/programistkę",
+      "level": "advanced",
+      "timeslot": "11:40 - 12:25",
+      "talkDesc": "W swojej pracy spotykając dziesiątki zespołów zauważam wzorce pytań/dylematów/rozterek jakie pojawiają wraz ze wzrostem doświadczenia i świadomości zespołu w stosowaniu DDD.\nTak na prawdę pytania te są ogólne a DDD jedynie szybciej do nich doprowadza.\nPodczas prezentacji przyjrzymy się tym typowym pytaniom na poziomie modelu, architektury i organizacji - spróbuję odpowiedzieć na nie w postaci konkretnych technik i rozwiązań.",
+      "room": "konfitura",
+      "sml": false
+    },
+    {
+      "id": "4cb2da62-e929-450f-949f-f6d5984162a1",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Kamil Szymański",
+          "bio": "Software developer, JVM & open-source enthusiast, develops D2C investment platform @ Pragmatic Coders, helps organizations improve software delivery processes @ OSEC",
+          "twitter": "kszdev",
+          "avatar": "https://avatars0.githubusercontent.com/u/3243993?v=3"
+        }
+      ],
+      "title": "Reactive web services",
+      "level": "advanced",
+      "timeslot": "11:40 - 12:25",
+      "talkDesc": "Ahh, reactive, probably the buzzword of 2017, newer and shinier than good ol' microservices, all asynchronous, non-blocking and I've even heard some event-driven buzz around it.\nDuring this live-coding session we won't focus on the shiny nor on saving the world with dataflows using composable operators.\nInstead we'll focus on how the execution of this reactive approach differs from 'classic imperative approaches' and check how it impacts resource consumption and tps.\nWe'll also see backpressure in action, cover the topic of reactive converters (e.g. JSON encoders and decoders) and check a couple of libraries, both new and old ones, that help build reactive web services.",
+      "room": "spiżarnia",
+      "sml": false
+    },
+    {
+      "id": "ffef48c9-adca-4e45-92c2-a3fb04baef79",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Michał Gruca",
+          "bio": "Java Developer, Solution Architect, Team Leader, currently in Delivery Manager role, with little appreciation to any of job titles. Focused more on solving problems, regardless if soft or tech in nature. In free time building communities, speaking at events, coding and trying to come back to blogging.\nAfter working around a decade in software industry, I’ve seen a bit, and try to share what I’ve learned about programming and management. Always with opinion, but open to discussion, stay strong and argue :)\nDespite using Outlook and Excel on daily basis, I’m still developer at heart with couple of IDE’s installed on my machine.\n",
+          "twitter": "@michalgruca",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzc0MzY2OA==.JPG"
+        }
+      ],
+      "title": "Kariera developera - zostałem seniorem i co dalej",
+      "level": "beginner",
+      "timeslot": "11:40 - 12:25",
+      "talkDesc": "Rynek IT rośnie w niesamowitym tempie w ciągu ostatnich lat oraz przechodzi ewolucje. Powstają coraz to nowe specjalizacje oraz stanowiska, zmieniają się tytuły, sposób współpracy i słyszymy o konieczności posiadania wszystkich umiejętności a oliwy do tego ognia dolewają firmy przeszkalające hydraulików na developerów.\n\n\t• Jak zaplanować karierę, co dalej czy mam być lidem, architektem czy pryncypałem?\n\t• Dokąd zmierzamy jako branża, czy mam się martwić brakiem umowy o pracę?\n\t• Jak żyć?\n\nJeżeli kiedyś zastanawialiście się nad tymi pytaniami, to zapraszam! :) W trakcie wykładu odpowiemy na te pytania oraz opowiedzieć o możliwościach rozwoju jako developer. Co trzeba umieć w której roli, czym się dany człowiek zajmuje i dlaczego bycie mitycznym liderem nie jest zawsze fajne.\n\nWykład na podstawie własnych obserwacji z rekrutacji, rozmów w kuluarach JUG i konferencji oraz codziennych problemów zespołu :)\n",
+      "room": "powidło",
+      "sml": false
+    },
+    {
+      "id": "70af4474-c9f5-4b45-887d-379ee8d687b6",
+      "type": "talk",
+      "authors": [
+        {
+          "name": " Tomek Sułkowski",
+          "bio": "Tomek Sułkowski started as full-stack developer and for the last 6 years he's been focusing on front-end technologies - especially the ecosystem around the Angular framework. He is most passionate about making development experience performant, comfortable and fun (*11 years of classical music education probably has something to do with that*). He's been working with startups from UK, USA, Germany and Denmark.\n\n3 years ago Tomek run his first programming workshop and discovered his passion for sharing the knowledge. Since then he conducted over 1500 hours of trainings for both beginners and experienced developers.\n\nCurrently he's working on mastering asalato.",
+          "twitter": "@sulco",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzE1MTE5MDY=.png"
+        }
+      ],
+      "title": "Dlaczego backendowcy wolą Angulara",
+      "level": "beginner",
+      "timeslot": "11:40 - 12:25",
+      "talkDesc": "Podczas prezentacji omówimy problemy, które są charakterystyczne dla pracy w środowisku przeglądarki a następnie przekonamy się, jak Angular sprawia, że w praktyce - znikają.\nPrzykłady kodu w TypeScript, z klasami, adnotacjami i wstrzykiwaniem zależności (i bez dotykania DOM-a!) sprawią, że każdy programista Java poczuje się dużo swobodniej niż w typowym JavaScriptowym projekcie.",
+      "room": "marmolada",
+      "sml": false
+    },
+    {
+      "id": "e1781c96-e8fc-4b62-9237-61accd19ccd4",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Michał Płachta",
+          "bio": "Polyglot software engineer specialised in developing distributed applications. Functional programming enthusiast. Loves the human component in software projects. Drinks a lot of tea. Has a blog at michalplachta.com. He currently works as team leader at Ocado Technology, where he is building actor-based software for automated warehouse.",
+          "twitter": "miciek",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/dHdpdHRlci9taWNpZWs=.jpg"
+        }
+      ],
+      "title": "Deweloper na detoksie",
+      "level": "beginner",
+      "timeslot": "11:40 - 12:25",
+      "talkDesc": "Poznajcie historię Jana Rzemiosło, świetnego software’owego rzemieślnika, który jest dzisiaj ostatni dzień w pracy przed długim urlopem. Jan oddał właśnie kod do review i ma plan wyjść o 18:00 do domu…\n\nTen talk to historia jednego code review, w którym recenzentka doczepiła się kilku niefortunnych nazw w najgorszym możliwym momencie: na 5 minut przed urlopem. Spróbujemy postawić się na miejscu Jana i zdecydować, co dla prawdziwego rzemieślnika, zainteresowanego zarówno jakością jak i dobrem projektu, jest najlepszym wyjściem z sytuacji.\n\nOpowiem o iluzjach, intuicji i podejmowaniu decyzji na podstawie danych. W części praktycznej pokażę jak podejmować decyzje na dwóch przykładach: nazywania zmiennych i dodawania historyjek do backlogu.",
+      "room": "dżem",
+      "sml": false
+    },
+    {
+      "id": "458034dd-a349-46b1-a6e4-9f3d0f328733",
+      "type": "org",
+      "timeslot": "12:25 - 12:45",
+      "title": "Coffee Break",
+      "icon": {
+        "name": "coffee"
+      }
+    },
+    {
+      "id": "38E2EEE5",
+      "type": "org",
+      "title": "Lectures",
+      "timeslot": "12:45 - 13:30",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "d9aeb326-24d7-47aa-b125-a1c2cb646e48",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Daniel Pokusa",
+          "bio": "Pragmatyk, zapalony zwolennik zwinnych metodyk prowadzenia projektów, automatyzacji i efektywności. Z jednej strony programista, ściśle związany z rodziną języków JVM oraz kierownik projektów, z drugiej trener zajmujący się wsparciem w zakresie jakości projektów, organizacji zespołu, rekrutacji i rozwoju personalnego. Każdego dnia stara się obalić mit programisty we flanelowej koszuli nie posiadającego zdolności interpersonalnych, a jedynie wiedzę techniczną. Wierzy, że istotą wytwarzania dobrego oprogramowania jest komunikacja, współpraca i umiejętność dzielenia się wiedzą. Współtwórca konferencji SpreadIT oraz aktywny uczestnik wydarzeń ze światka IT. Bloguje na http://software-empathy.pl",
+          "twitter": "dpokusa",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/ZmFjZWJvb2svMTQ2MDkxNTA5NzI3MzQ3Mw==.jpeg"
+        }
+      ],
+      "title": "Evolving Architecture",
+      "level": "advanced",
+      "timeslot": "12:45 - 13:30",
+      "talkDesc": "Rozwijając system bardzo łatwo można przekroczyć granicę- z jednej strony chcemy przewidzieć wszystkie możliwości i potencjalne zmianty jakich będzie chciał klient, z drugiej strony pod wpływem presji czasu często idziemy na skróty, które na późniejszym etapie projektu sprawiają, że koszty zmian zaczynają być zbyt wysokie. Jak unikać \"overdesignu\", równocześnie nie zamykając się na potencjalny rozwój? Na jakim etapie podejmować kluczowe decyzje oraz kiedy opłaca się świadomie zaciągać dług technologiczny? Wykład dla wszystkich tych, którym zależy, aby ich aplikacje były utrzymane w dobrym stanie (uwzględniając często spore ciśnienie biznesowe). Prawdziwa historia o pomyłkach, porażkach, ale i decyzjach, które okazały się zbawienne dla projektu.",
+      "room": "konfitura",
+      "sml": false
+    },
+    {
+      "id": "aa701c76-1957-4332-bf76-6fd3a7d14c40",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Kuba Marchwicki",
+          "bio": "Programista od kilkunastu lat, architekt od kilku, analityk czasami, konsultant jak trzeba, manager z wyboru, trener z zamiłowania, wannabe entrepreneur z marzeń, lider Java User Group w Gdańsku - jest spora szansa, że nic z tego nie robię dobrze. Ale próbuje... i wyciągam wnioski z porażek. ",
+          "twitter": "@kubem",
+          "avatar": "https://avatars3.githubusercontent.com/u/637628?v=3"
+        }
+      ],
+      "title": "Java9 and REPL. Zapomnij o debuggerze - radość i produktywnośc programisty",
+      "level": "beginner",
+      "timeslot": "12:45 - 13:30",
+      "talkDesc": "Oj, Java, mój stary, leniwy, barokowy przyjacielu. \nPrzez lata, chcąc spróbować czegoś nowego (co na szczęście nie było zbyt częste), tworzyliśmy nowy projekt, klasa `Sandbox`, metoda `public static void main`; alternatywnie jakiś teścik JUnit. Szczęśliwie czasy się zmieniły. Wraz z Javą9 przychodzi JShell - REPL. Nowy sposób na wypróbowanie nowych idiomów, nowego API, bibliotek. Teraz możemy być trochę jak Scala, Clojure, Ruby, JavaScript, PHP, niemalże każdy inny język - woohoo!\nW tej prezentacji przejdę przed podstawowe przykłady działania REPLa, jak możemy używać JShella aby wypróbować nowego API, nowych elementów języka (jak np. HttpClient lub dodatki w obsłudze strumieni). Nie będziemy jednak budować aplikacji `Hello World`. Wykorzystamy REPLa aby zbudować kompletną aplikacje webową albo zobaczyć co nowego w Springu 5.0. Samo mięsa, żadnych diagramów lub przykładów z `javax.swing.*`",
+      "room": "spiżarnia",
+      "sml": false
+    },
+    {
+      "id": "0b382d99-b874-4604-9f4a-a563a02b9c99",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Michał Lewandowski",
+          "bio": "Nazywam się Michał Lewandowski. Jestem inżynierem oprogramowania, mówcą, ojcem, zdarzyło mi się też zrobić kilka konferencji. Jestem zainteresowany czystym i dobrym kodem, Ponadto interesuję się tym jak ludzie i zespoły pracują ze sobą. Aspekty miękkie pracy przy wytwarzaniu oprogramowania są dla mnie szczególnie interesujące.",
+          "twitter": "https://twitter.com/lewandm4",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/ZmFjZWJvb2svMTAyMDkxMTg5MzU3MTA3OTM=.jpg"
+        }
+      ],
+      "title": "3 kroki do TDD",
+      "level": "advanced",
+      "timeslot": "12:45 - 13:30",
+      "talkDesc": "Nie pokażę Wam kodu. Nie powiem Wam jak tworzyć testy. Nie pokażę Wam jak powinny wyglądać dobre testy. Podzielę się moim doświadczeniem związanym z TDD, z pułapkami, z tym jak myśleć o TDD, o tym czym się kierować pisząc testy, o połączeniu test <-> kod produkcyjny.\n\nCzy zadawałeś sobie pytanie kiedy należy stosować TDD (lub po prostu testować), a kiedy nie? W których momentach inwestycja w postaci testów się zwróciła? Jak zmienia się twoje myślenie, kiedy myślisz o systemie jako kompletnej całości w postaci testów i kodu produkcyjnego?\n\nPodczas tej prezentacji, zachęcę Was do budowania refleksji na temat testowania naszych systemów. Nie pokażę Wam niczego nowego - z punktu widzenia technologii, ale wskażę najlepszą drogę, którą do tej pory odkryłem.",
+      "room": "powidło",
+      "sml": false
+    },
+    {
+      "id": "0627fa32-9bb5-461f-8123-e5bcbea90cfd",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Marcin Grzejszczak",
+          "bio": "Author of \"Mockito Instant\" and \"Mockito Cookbook\" books. OSS Contributor. Co-founder of the Warsaw Groovy User Group and Warsaw Cloud Native Meetup.\n\nLead of Spring Cloud Sleuth, Spring Cloud Contract and Spring Cloud Pipelines projects at Pivotal.\n\nContributed to Groovy, Mockito, Rest-assured, Drools, Moco. Author of Uptodate Gradle plugin, Spock subjects-collaborators extension, gradle-test-profiler, JSONAssert and XMLAssert open source projects.",
+          "twitter": "@mgrzejszczak",
+          "avatar": "https://avatars3.githubusercontent.com/u/3297437?v=3"
+        }
+      ],
+      "title": "Tracing Microservices with Zipkin",
+      "level": "beginner",
+      "timeslot": "12:45 - 13:30",
+      "talkDesc": "The hype related to microservices continues. It’s already common knowledge that creating distributed systems is not easy. It’s high time to show how that complexity can be contained.\n\nService Discovery and Registry (Zookeeper / Consul / Eureka), easy request sending with client side load balancing (Feign + Ribbon), request proxying with Zuul. Everything is easy with Spring Cloud. Just add a dependency, a couple of lines of configuration and you’re ready to go.\n\nThat’s fixing difficulties related to writing code - what about solving the complexity of debugging distributed systems? Log correlation and visualizing latency of parts of the system? Spring Cloud Sleuth with Zipkin to the rescue!\n\nThe presentation will consist of some theory but there’ll also be live coding and demos.",
+      "room": "marmolada",
+      "sml": false
+    },
+    {
+      "id": "5976a257-016b-4bbd-bf4c-29045b1618c9",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Dominik Przybysz",
+          "bio": "Większość zawodowego życia spędził pisząc w javie i groovym, ale zdarzało mu się oskryptowywać różne rzeczy w pythonie lub shellu. Aktualnie developer w TouKu oraz committer Apache Aries. Uwielbia testowanie (szczególnie z pomocą Spocka) oraz wszelką automatyzację w procesie wytwarzania oprogramowania. Stara się dbać o czystość kodu (własnego i cudzego) poprzez częste code review.",
+          "twitter": "alien11689",
+          "avatar": "http://www.gravatar.com/avatar/354759907817cd614ff620cc810c19f5.jpg?s=300&d=blank"
+        }
+      ],
+      "title": "Porty i adaptery",
+      "level": "beginner",
+      "timeslot": "12:45 - 13:30",
+      "talkDesc": "Czy zdarzyło Ci się kiedyś przebudować całą aplikację, bo trzeba dodać nowe pole na frontendzie? Albo gdy zmiana organizacji tabel w DB zmieniała całą Twoją domenę?\n\nJak radzić sobie ze zmieniającym się światem i wymaganiami? Jak utrzymywać porządek wewnątrz aplikacji i skupiać się na jej domenie? Jak sprawić, by zewnętrzny świat stał się detalem implementacyjnym? Odpowiedzią jest architektura portów i adapterów. \n\nNa prezentacji opowiem o doświadczeniach z budowaniem aplikacji, gdzie Twoja domena jest najważniejsza i odpowiem m. in. na pytania:\nCo mi to da? Jak to zrobić? Na co uważać? Dlaczego to jest trudne?\n",
+      "room": "dżem",
+      "sml": false
+    },
+    {
+      "id": "66ebc9a4-aa3d-4a5b-b87e-b168ff6e9559",
+      "type": "org",
+      "timeslot": "13:30 - 14:30",
+      "title": "Lunch Break",
+      "icon": {
+        "name": "cutlery"
+      }
+    },
+    {
+      "id": "41290D38",
+      "type": "org",
+      "title": "Lectures",
+      "timeslot": "14:30 - 15:15",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "27856801-8d1b-407f-8843-93454e6d9660",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Adam Dubiel",
+          "bio": "Programista z pasją do tworzenia wydajnych i dobrze skalujących się aplikacji. Kiedy programuje, zwraca uwagę na czystość kodu, architekturę i testy, ale także na metryki. Lider techniczny, który lub zmieniać otoczenie na lepsze. Największą satysfakcję daje mu udane wdrożenie aplikacji, która po prostu działa i zadowolenie klientów.",
+          "twitter": "dubieladam",
+          "avatar": "https://avatars1.githubusercontent.com/u/5269406?v=3"
+        }
+      ],
+      "title": "Klienci HTTP: bohaterowie systemów rozproszonych",
+      "level": "beginner",
+      "timeslot": "14:30 - 15:15",
+      "talkDesc": "Podstawową różnicą między systemami rozproszonymi a monolitycznymi jest wszechobecność komunikacji. Jednym z najbardziej popularnych protokołów jest HTTP i ciężko jest znaleźć projekt w którym nie używany jest żaden klient HTTP. Lecz czy wiesz co tak naprawdę kryje się pod ładnymi, wysokopoziomowymi API do HTTP które oferuje wiele frameworków?\n\nW czasie mojej prezentacji chcę pokazać z jakich mechanizmów korzystają wysokopoziomowe API takie jak RestTemplate i Jersey. Na jakie parametry zwrócić uwagę i jakie mają znaczenie dla działania aplikacji? Jak szybko reagować na problemy systemów z którymi się integrujemy? Jak zwiększyć liczbę wysyłanych requestów na sekundę? Jakie pułapki na nas czekają? I co najważniejsze - jak monitorować, że magicznie dobrane parametry mają sens na produkcji. Przyjdź i posłuchaj jeśli chcesz być świadomym użytkownikiem klientów HTTP. ",
+      "room": "konfitura",
+      "sml": false
+    },
+    {
+      "id": "7255588a-4700-42e6-aeb5-1a9824c89d42",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Anton Berezin",
+          "bio": "I am a Senior Java Developer at DataArt Poland.\n",
+          "twitter": "https://twitter.com/digwener86",
+          "avatar": "https://avatars3.githubusercontent.com/u/1992992?v=3"
+        }
+      ],
+      "title": "Algorithms: Practical points each Java Developer should know.",
+      "level": "beginner",
+      "timeslot": "14:30 - 15:15",
+      "talkDesc": "Algorithms and data structures. Do we really need to know them to be successful developers or could we just forget anything we knew about algorithms right after graduation from university and getting a job?\n\nDecent knowledge of algorithms can lead us to better understanding of tools at our disposal and also it can inspire and guide us when we are working out solutions to our problems. Having conducted quite a few of job interviews I noticed that lack of knowledge about basic algorithmic concepts is pretty common among the candidates and I would like to do as much as possible to eliminate the gap between required and actual common knowledge.\n\nIt will be neither academic lecture nor narration of computer science book. Instead of writing equations and proving theorems and lemmas I will describe the algorithms with simple words and examples. I hope some interesting facts will catch your mind and you will be interested to research on the subject further.",
+      "room": "spiżarnia",
+      "sml": false
+    },
+    {
+      "id": "0ddf811f-0770-4adc-bf06-5dfced6b3cad",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Bartłomiej Kuczyński",
+          "bio": "Z komputerami mam do czynienia od 4 roku życia gdy w domu pojawił się ZX Spectrum, a ja dzielnie zapisałem cały ekran literką A. Później moja droga była typowa, czyli noce zarwane przy “duuumie” i “maralu kombacie”, aż na początku liceum zacząłem się bawić w programowanie. Najpierw były to makra VB dla Excela, a później proste programy w VB. Na studiach zainteresowałem się Javą, ale “przy okazji” poznawałem FORTRANa i C. Obecnie pracuję jako trener java.",
+          "twitter": "koziolek",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzY5NzEyNg==.jpg"
+        }
+      ],
+      "title": "Wprowadzenie do JUnit 5",
+      "level": "beginner",
+      "timeslot": "14:30 - 15:15",
+      "talkDesc": "Kolejna, piąta już, odsłona najpopularniejszego frameworku do testów jednostkowych przynosi wiele zmian. I choć na chwilę obecną nie jest jeszcze w finalnej wersji, to już teraz warto przyjrzeć się nowym możliwościom oraz omówić rolę programistów w rozwoju narzędzi opartych o JUnit.\nW czasie prezentacji pokażę, jak pracuje się z JUnit 5. Jak zmienił się sposób pisania testów. Jak można zorganizować swoje środowisko testowe. Jak przejść z JUnita 4. Będzie też małe porównanie do TestNG.",
+      "room": "powidło",
+      "sml": false
+    },
+    {
+      "id": "e1f4dab9-8897-4285-916f-ffe3870e2e28",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Paweł Lewtak",
+          "bio": "Experienced developer specializing in backend parts of applications. Created them from scratch by starting with analysis and writing specification, through implementation, testing, up to deployment on production.  Big fan and evangelist of continuous learning and good code quality, organizer of coding dojo sessions.",
+          "twitter": "pawel_lewtak",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzU4NDYyMjM=.jpg"
+        }
+      ],
+      "title": "Druga najtrudniejsza rzecz w IT",
+      "level": "advanced",
+      "timeslot": "14:30 - 15:15",
+      "talkDesc": "Porozmawiajmy o trudnych tematach w IT. Najczęściej przy tej okazji wspomina się o czyszczeniu pamięci podręcznej i nazywaniu rzeczy. W ramach tej prezentacji chciałbym się skupić na tej drugiej. Na podstawie własnego doświadczenia pokażę dobre i złe praktyki stosowane przez programistów. Na podstawie dobrych i złych nazw poszukamy wspólnego mianownika w obu przypadkach i zastanowimy się co sprawia, że nazwa funkcji/zmiennej/klasy/modułu jest dobra, zła lub brzydka. Postaram się odpowiedzieć na pytanie czy wystarczą wystarczająco dobre nazwy czy powinniśmy być w tej kwestii perfekcjonistami. Wyniesiona z prezentacji wiedza powinna pomóc rozpoznać dobrą/złą nazwę w czasie kolejnego code review.",
+      "room": "marmolada",
+      "sml": false
+    },
+    {
+      "id": "64f7e1eb-2f9d-4d5f-8e3c-6efea5690318",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Tomasz Cisowski",
+          "bio": "Doświadczenie w zakresie szeroko pojętych płatności elektronicznych zdobywam od 15 lat – w tym od ponad 2 lat w Visa, gdzie zajmuję się innowacjami, płatnościami mobilnymi i tokenizacją.",
+          "twitter": null,
+          "avatar": "https://2017.confitura.pl/api/resources//photos/ZmFjZWJvb2svODE0NTg0MjQyMDUxMTMy.jpg"
+        }
+      ],
+      "title": "Visa Developer Center",
+      "level": "beginner",
+      "timeslot": "14:30 - 15:15",
+      "talkDesc": "W prezentacji przedstawię platformę Visa Developer, która poprzez API daje programistom (pracującym dla detalistów, instytucji finansowych, firm technologicznych, czy start-upów) dostęp do najbardziej popularnych funkcjonalności płatniczych Visa.",
+      "room": "dżem",
+      "sml": false
+    },
+    {
+      "id": "c540d444-b21b-4a33-aa13-1c23a859068e",
+      "type": "org",
+      "timeslot": "15:15 - 15:35",
+      "title": "Coffee Break",
+      "icon": {
+        "name": "coffee"
+      }
+    },
+    {
+      "id": "E4033409",
+      "type": "org",
+      "title": "Lectures",
+      "timeslot": "15:35 - 16:20",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "c82d05e3-4893-46f9-a4d9-74c381b6ec06",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Szczepan Faber",
+          "bio": "Humble maker of great tools for engineers. Founder of http://mockito.org and core engineer behind Gradle 1.x and 2.x (http://gradle.org). Born and bred Polish coder, residing in Silicon Valley, tech leading LinkedIn Development Tools (and my team is hiring: http://tinyurl.com/dev-tools-linkedin). Ex-ThoughtWorks London, ex-Sabre Krakow, still a craftsman! Join us at http://shipkit.org - we are cooking a brand new Open Source that will change the world and we are looking for great chefs!",
+          "twitter": "mockitoguy",
+          "avatar": "http://www.gravatar.com/avatar/16319aba44da117ca73484d1ce32227b.jpg?s=300&d=blank"
+        },
+        {
+          "name": "Marcin Stachniuk",
+          "bio": "Na co dzień piszę czysty kod, głównie w Javie, najchętniej korzystając z TDD. Lubię zwinne metodyki (bo to jedyne co działa) jak i automatyzację powtarzalnych czynności. Wierzę w rozwiązania NoSQL, odpowiednio dobierane pod konkretne problemy. Recenzowałem książkę Practical Unit Testing Tomka Kaczanowskiego. Ostatnio dołączyłem do zespołu mockito-release-tools i gdzie wnosimy Continuous Delivery bibliotek Javowych na kolejny poziom! Chorąży na chamberconf.pl i prelegent na wielu polskich konferencjach. ",
+          "twitter": "@MarcinStachniuk",
+          "avatar": "https://avatars1.githubusercontent.com/u/773578?v=3"
+        },
+        {
+          "name": "Wojtek Wilk",
+          "bio": "Software Engineer, Open Source Coder, Coding Instructor, Automation and Continuous Delivery Enthusiast, Aspiring Speaker, Scuba Diver",
+          "twitter": "wojtek_wilk",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzM0MjA2Njc=.png"
+        }
+      ],
+      "title": "Ship every change to production! How it’s done at LinkedIn, in Mockito, and how you can do it with shipkit.org",
+      "level": "advanced",
+      "timeslot": "15:35 - 16:20",
+      "talkDesc": "After the talk, you will be excited about shipping code all the time! Szczepan will start describing how Java code moves from commit to prod at LinkedIn. Then we will describe the goals and implementation details of impressive release automation of Mockito project. Finally, we’ll show you a demo how to setup top notch continuous delivery in 2 minutes for any Open Source Java library. We will use shipkit.org, a new OS project, currently cooked by chefs Szczepan Faber (LinkedIn), Wojtek Wilk (Smart Recruiters) and Marcin Stachniuk (Freelancer). There’s room in the kitchen for more cooks, too! \n\nShipkit inspires on original Mockito release automation tooling and also on the the build pipeline Szczepan’s team created and maintains at LinkedIn.",
+      "room": "konfitura",
+      "sml": false
+    },
+    {
+      "id": "098f7d5e-fb2a-462c-89b7-c0be82950874",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Grzegorz Goławski",
+          "bio": "Aktualnie jestem architektem w Nokii. Zajmuję się głównie sprawami związanymi z bezpieczeństwem aplikacji webowych, zarówno po stronie frontendu jak i backendu. W przeszłości byłem software architektem i developerem. Poza szeroko pojętym security, interesuję się piłką nożną i sam w nią gram.",
+          "twitter": "ggolawski",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/ZmFjZWJvb2svNDY3MTE0MTQ2OTYyMDA1.jpg"
+        }
+      ],
+      "title": "Podstawy bezpieczeństwa aplikacji webowych",
+      "level": "beginner",
+      "timeslot": "15:35 - 16:20",
+      "talkDesc": "Błędy, a w szczególności błędy bezpieczeństwa istniały, istnieją i zawsze będą istnieć. Tego stanu rzeczy nie zmienimy, ale to nie oznacza że możemy pominąć kwestie związane z bezpieczeństwem podczas tworzenia oprogramowania. W tym wystąpieniu pokażę jak zhakować i zabezpieczyć aplikację webową. Opowiem na czym polegają, jak wykorzystać i jak poprawić błędy typu SQL Injection, Cross-Site Scripting (XSS) i Cross-Site Request Forgery (CSRF, XSRF). Przedstawię też kilka ogólnych zaleceń których powinniśmy przestrzegać aby ochronić nasze aplikacje i serwisy przed atakami.",
+      "room": "spiżarnia",
+      "sml": false
+    },
+    {
+      "id": "bd73e6ec-4ed4-4b10-91d0-f03bd62c4d85",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Krzysztof Miksa",
+          "bio": "Od 2009 roku wspiera Confiturę (dawniej Javarsovię) jako wolontariusz. Wielbiciel dobrego piwa i języków funkcyjnych na JVM'ie.",
+          "twitter": "KrzysztofMiksa",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/dHdpdHRlci9Lcnp5c3p0b2ZNaWtzYQ==.jpg"
+        }
+      ],
+      "title": "Secure your Docker containers",
+      "level": "advanced",
+      "timeslot": "15:35 - 16:20",
+      "talkDesc": "\"The Docker security philosophy is Secure by Default\" Ale czy napewno? Podczas prezentacji pokażę, że samo użycie Dockera nie gwarantuje że nasze aplikacje są bezpieczne. Omówię wskazówki na co warto zwrócić uwagę aby zwiększyć bezpieczeństwo naszych mikroserwisów w kontenerach.",
+      "room": "powidło",
+      "sml": false
+    },
+    {
+      "id": "fa48c7b8-b46d-47b5-a11a-c0e93a71f839",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Andrzej Ludwikowski",
+          "bio": "Młynarz w SoftwareMill. Wyznawca DDD, CQRS i Polyglot Persistence. Cały czas poszukujący tej idealnej (nierealnej) architektury kodu, która spełni wszystkie, najdziwniejsze trendy.",
+          "twitter": "@aludwikowski",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzI5NTQwNTM=.jpg"
+        }
+      ],
+      "title": "Testy wydajności z Gatlingiem",
+      "level": "beginner",
+      "timeslot": "15:35 - 16:20",
+      "talkDesc": "Testy wydajności to bardzo niewdzięczny temat, szczególnie w czasach mikro serwisów, klastrów i bardzo złożonych systemów. W pierwszej części prezentacji chciałbym odnieść się do najczęstszych problemów i błędów w tym obszarze. Podzielić się swoimi doświadczeniami zdobywanymi, nierzadko, przez bolesne porażki i kosztowne eksperymenty. Po tym miłym wstępie, pokażę dlaczego warto jest poświęcić trochę czasu i nauczyć się nowego narzędzia do testów integracyjnych i wydajnościowych jakim jest Gatling. W jakich sytuacjach będzie on niezbędny w naszej skrzynce narzędziowej. ",
+      "room": "marmolada",
+      "sml": true
+    },
+    {
+      "id": "14b6a3d5-c993-4784-aefb-2e2895948d99",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Joanna Karczewska",
+          "bio": "Elderly lady from Confitura 2016",
+          "twitter": null,
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzI3NzgzMzY5.jpg"
+        }
+      ],
+      "title": "The GDPR tsunami is coming - let's get ready",
+      "level": "beginner",
+      "timeslot": "15:35 - 16:20",
+      "talkDesc": "The new EU regulation  on the protection of natural persons with regard to the processing of personal data, known as GDPR, vastly extends and strengthens current rights of all individuals in the EU. It will also require a new approach from controllers and processors. During my presentation I would like to talk about the GDPR from two perspectives that will be equally important to attendees of Confitura 2017:\n- the individual’s perspective – what we will be entitled to expect from companies and public agencies processing our personal data,\n- the developer’s and programmer’s perspective – what we will have to consider when we develop new applications or make changes to old ones used to process personal data and what “privacy by design” and “privacy by default” will mean from May 25th, 2018. And let us not forget about the huge administrative fines for infringing the regulation. Sounds intriguing ? Then come to my presentation.",
+      "room": "dżem",
+      "sml": false
+    },
+    {
+      "id": "74be9749-7e5d-422d-b81a-a8eb523af105",
+      "type": "org",
+      "timeslot": "16:20 - 16:40",
+      "title": "Coffee Break",
+      "icon": {
+        "name": "coffee"
+      }
+    },
+    {
+      "id": "03502186",
+      "type": "org",
+      "title": "Lectures",
+      "timeslot": "16:40 - 17:25",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "3b823045-ba1e-4df2-b551-51bc66018e2e",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Wojciech Seliga",
+          "bio": "Wojtek zaczął programować jako dzieciak, grubo ponad 30 lat temu. Był świadkiem pojawiania się i znikania różnych technologii, mód, obietnic bez pokrycia, baniek czy metodologii. Od wielu lat Wojtek próbuje zmieniać swoje otoczenie (kolegów, klientów, przełożonych i podwładnych) na myślenie i działanie agile'owe, a przede wszystkim stara się inspirować ludzi do działania, ciągłego rozwoju i wychodzenia ze strefy komfortu.\nProwadzi firmę Spartez w Gdańsku, którą współzałożył z grupą kolegów w 2007 roku. Obecnie zarządzanie Spartez z jej setką pracowników, kilkoma produktami mającymi około 3000 klientów z całego świata oraz coraz bardziej rozwijającą się współpracą z firmą Atlassian pochłania w 100% jego czas zawodowy.\nWojciech dosyć regularnie występuję na różnych konferencjach w Polsce i na świecie, np. na Devoxx, Atlassian Summit, Agile, Confitura czy InfoSHARE.\nCzas wolny spędza z rodziną oraz uprawiając sporty rakietowe.",
+          "twitter": "wseliga",
+          "avatar": "http://www.gravatar.com/avatar/3c7677a4399b5fa264dd23ee4e7d5dec.jpg?s=300&d=blank"
+        }
+      ],
+      "title": " Plantacje programistów - kolonializm XXI wieku",
+      "level": "beginner",
+      "timeslot": "16:40 - 17:25",
+      "talkDesc": "Uber, Facebook, Spotify, Tesla, JIRA - software zbudowany przez software geeków warty miliardy dolarów.\nCzy Polscy specjaliści IT są głupsi lub gorsi od swoich kolegów z Zachodu? Czy może problemem jest ogromny kapitał w tamtych krajach, którego tutaj nie mamy? Czy wreszcie problem leży w naszym podejściu do informatyki? Niezależnie od rzeczywistej przyczyny, efektem są dziesiątki tysięcy osób w Polsce pracujących nad pielęgnowaniem systemów informatycznych wymyślonych gdzie indziej i przekazanych im do konserwacji jako relatywnie taniej i kontrolowalnej sile roboczej. Razem z innymi krajami rozwijającymi się, staliśmy się swoistą plantacją programistyczną dla najnowocześniejszych krajów świata.\nPostaram się przeanalizować przyczyny takiej sytuacji i odpowiedzieć na pytanie jaka musi się stać zmiana mentalna, aby informatyka w Polsce przestała mieć cechy kolonii dostarczającej zasobów, a miała kreujący wpływ na rozwój cywilizacji i nowoczesnej gospodarki.",
+      "room": "konfitura",
+      "sml": false
+    },
+    {
+      "id": "32caccab-c603-4a5f-9573-3e76f68dfa29",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Marcin Zajączkowski",
+          "bio": "Doświadczony architekt realizujący projekty charakteryzujące się wysoką jakością i niezawodnością. Silnie zaangażowany w promowanie Software Craftsmanship, Clean Code i Test-Driven Development na konferencjach i szkoleniach. Specjalista w automatyzacji wdrożeń z Continuous Delivery i Continuous Inspection of Code Quality. Entuzjasta reaktywności i szeroko rozumianego zrównoleglania/współbieżności. Poza tym autor i kontrybutor <a href=\"http://www.solidsoft.info/my-projects/\">projektów</a> open source, <a href=\"http://blog.solidsoft.info/\">bloger</a> i <a href=\"http://www.solidsoft.info/training/\">trener</a>.",
+          "twitter": "SolidSoftBlog",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/Z2l0aHViLzE0ODAxMw==.jpg"
+        }
+      ],
+      "title": "Mockito 2 - Powrót Króla",
+      "level": "beginner",
+      "timeslot": "16:40 - 17:25",
+      "talkDesc": "Prawdopodobnie nie ma piszącego testy programisty Java, który by nie słyszał o Mockito. Ten najpopularniej framework do mockotowania w Javie będzie niedługo obchodził 10-te urodziny. Niemniej, nie planuje rozpamiętywać historii. Pod koniec 2016 roku pierwsza stabilna wersja nowego Mockito 2 została wydana.\n\nW czasie prezentacji pokażę nowe ficzery i ulepszenia zaimplementowane w Mockito 2. Przyjrzymy się również bliżej miejscom, które zmieniły się w sposób niekompatybilny i popularnym problemom przy migracji. Sami będziecie mogli ocenić, czy było warto czekać prawie 2 lata od wydanie Mockito 1.10.19.",
+      "room": "spiżarnia",
+      "sml": false
+    },
+    {
+      "id": "76b5f3db-d0d5-48b1-8b71-2731ec7f2fde",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Sebastian Malaca",
+          "bio": "Sebastian is an experienced and dedicated software engineer specializing in object-oriented design and programming, software architecture, code quality and agile. \nHis interests include testing, programming, software engineering and agile software craftsmanship. \nHe's also a speaker (JDD, GeeCon, Confitura, Devoxx, etc.), writer and contributor to several blogs (DZone, JavaCodeGeeks) about Software Development and Agile Software Craftsmanship.",
+          "twitter": "SebastianMalaca",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/dHdpdHRlci9TZWJhc3RpYW5NYWxhY2E=.jpg"
+        }
+      ],
+      "title": "Code Review - how to do it better?",
+      "level": "beginner",
+      "timeslot": "16:40 - 17:25",
+      "talkDesc": "The more complex application is the more people are working on it. The more code they're are creating, the more important is to take care of quality of this code. And Code Review is a great practice to doing it.\nYet, it happens really often that after a while, when your eagerness decreases and the amount of reviews grow, many people starts to complain. \nThey're looking for excuses to not have a time for the reviews. For doing it carelessly. Is it a problem? Only if you won't react. Because there's a room for improvements in here!",
+      "room": "powidło",
+      "sml": false
+    },
+    {
+      "id": "a60561e6-28b3-4ff9-8805-36643ffa1b26",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Mateusz Dyminski",
+          "bio": "Programista – czasem devops. Z Javą związany od 7, a z GO od 4 lat. Na co dzień pracuje w Nokii, gdzie, zajmuje się rozwijaniem platformy do zarządzania siecią nadajników, używanej przez setki operatorów komórkowych na całym świecie. Jeden z założycieli wrocławskiego GoWroc (Golang Wroclaw user group).",
+          "twitter": "@m_dyminski",
+          "avatar": "https://avatars1.githubusercontent.com/u/4962812?v=3"
+        }
+      ],
+      "title": "7 things which you should care about before release your code to production",
+      "level": "beginner",
+      "timeslot": "16:40 - 17:25",
+      "talkDesc": "Projekt nad którym pracowałeś powoli dobiega końca. Nadchodzi czas release'u. Czy napewno o wszystkim pamiętałeś?\n\nPrezentacja ma na celu przybliżenie 7 najważniejszych rzeczy przed release'em, o których należy pamiętać zanim będzie za późno. Tematy zawarte w prezentacji to między innymi: \n\nwersjonowanie - API, buildy, artefakty, baza danych czy serwowane pliki\nprofilowanie - czy na pewno Twoją aplikację będzie można profilować po wypuszczeniu ją na produkcje \nhealth check’i - jak sprawdzić czy aplikacja działa oraz wiele innych przydatnych rzeczy\nlogowanie - jak poprawnie logować i gdzie te logi zbierać\nperformance - czy nasza aplikacja przetrzyma natłok użytkowników\nmonitoring oraza alarmy - jak być pewnym, że nasza aplikacja żyje i ma się dobrze\ndeployment aplikacji na produkcje - jak to zrobić, żeby spać spokojnie w weekend po release’ie ",
+      "room": "marmolada",
+      "sml": false
+    },
+    {
+      "id": "d74e1b49-1ab0-46ca-9a80-e400d460659a",
+      "type": "talk",
+      "authors": [
+        {
+          "name": "Krzysztof Kudrynski",
+          "bio": "A passionate problem-solver with experience in design and implementation of algorithms including Artificial Intelligence, image processing and 3D environment reconstruction. Perfectionist in public presentations. On a daily basis working for Tomtom, trying to squeeze the self-driving-car's imagination within an SD card, and the cars' eyes and ears within the tip of a side mirror.",
+          "twitter": "kriskudrynski",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/dHdpdHRlci9rcmlza3Vkcnluc2tp.jpg"
+        },
+        {
+          "name": "Blazej Kubiak",
+          "bio": "I ma enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality – like CUDA.\nFor over ten years I have been involved in many challenging projects related to image and laser data processing. I am one of the authors of automated traffic signs detection and recognition systems and bird-eye image mosaic creation process. I am co-author of Road DNA positioning concept and patent application. Currently I work in TomTom Autonomous Driving unit in areas of:Deep Neural Networks for object detection and recognition, ADAS and Maps for Highly Automated Driving, Advance localization using camera, lidar and other sensors,  LIDAR point clouds processing (e.g. extracting moving objects, automated calibration, segmentation, classification)",
+          "twitter": "blazkubiak",
+          "avatar": "https://2017.confitura.pl/api/resources//photos/dHdpdHRlci9ibGF6a3ViaWFr.jpg"
+        }
+      ],
+      "title": "Flying services with a drone",
+      "level": "beginner",
+      "timeslot": "16:40 - 17:25",
+      "talkDesc": "Dron, komputer PC i sporo cierpliwości. To składniki niezbędne by rozpocząć własną przygodę z programowaniem usług wykonywanych autonomicznie przez drony. Podczas tej prezentacji pokażemy nasze własne rozwiązania do autonomicznego mapowania terenu w pomieszczeniach zamkniętych, sterowania dronem przy użyciu mapy i autonomicznego filmowania. \nJakkolwiek lekka i zabawna, będzie to prezentacja o poważnych technologiach, nieprzewidywalnych pomysłach algorytmicznych i nieustannej walce aby wszystko zadziałało na latającej maszynie.\nJeśli planujesz uruchomić zdalną pocztę na Księżycu (albo w swoim salonie), nie może Cię zabraknąć na tej prezentacji.",
+      "room": "dżem",
+      "sml": false
+    },
+    {
+      "id": "45e6e737-8e19-4e69-ae7e-6bec5fbb3bcc",
+      "type": "org",
+      "timeslot": "17:25 - 17:35",
+      "title": "Break",
+      "icon": {
+        "name": "coffee"
+      }
+    },
+    {
+      "id": "e65bd2a8-a203-45b3-84f9-98c0163c738a",
+      "type": "org",
+      "timeslot": "17:35 - 18:05",
+      "title": "Official Closure",
+      "icon": {
+        "name": "bullhorn"
+      }
+    },
+    {
+      "id": "78a5be89-4003-47d2-9f31-3cca5ff5dcd9",
+      "type": "org",
+      "timeslot": "19:05 - 01:00",
+      "title": "SPOINa",
+      "icon": {
+        "name": "beer"
+      }
+    }
+  ],
+  "places": [
+    {
+      "type": "Conference venue",
+      "title": "Bobrowiecka Conference Center",
+      "address": "6 Bobrowiecka St.",
+      "communicationType": "bus",
+      "communicationLines": ["119"],
+      "lat": 52.201183,
+      "lon": 21.045615,
+      "dates": [
+        "1st July 09:00-19:00"
+      ],
+      "icon": {
+        "name": "md-pin",
+        "set": "Ionicons"
+      },
+      "image": "bobrowiecka"
+    }
+  ],
+  "info": [
+    {
+      "id": 500,
+      "icon": {
+        "name": "cutlery",
+        "set": "FontAwesome"
+      },
+      "content": "Lunch will be served in the Deser room starting at 13:30"
+    },
+    {
+      "id": 600,
+      "icon": {
+        "name": "beer"
+      },
+      "content": "To participate in the SPOINa afterparty, you will have to get an invitation. Those will be given out by the organizers during the conference for various participant activities. The details on how to get to the SPOINa afterparty will be on these invitations."
+    }
+  ]
+}
